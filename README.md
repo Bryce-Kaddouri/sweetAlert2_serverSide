@@ -46,7 +46,7 @@ modal();
 ```
 ---
 ```html
-<!-- index.php -->
+<!-- template.php -->
 <template id="my-template">
   <swal-title>
     Save changes to "Untitled 1" before closing?
@@ -72,11 +72,21 @@ modal();
 ```
 ---
 # Step 3:
-inclure le fichier JavaScript dans index.php
+include the template in your php file
+
+```php
+// index.php
+include 'template.php';
+```
+
+include the JavaScript file in your php file
+
 ```php
 // index.php
 <script src="js/modal.js"></script>
 ```
+
+
 
 
 
